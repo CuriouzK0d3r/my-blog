@@ -2,6 +2,8 @@
 title: How to start with Deep Learning
 slug: /start-with-dl
 date: 2021-07-10T00:00:00.000Z
+tags: ["Deep Learning", "Python" "JavaScript"]
+categories: ["Machine Learning"]
 description: A description of popular deep learning frameworks
 ---
 
