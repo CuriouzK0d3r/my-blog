@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>How to start with Deep Learning - The Curious Coder</title><meta name="Description" content="A description of popular deep learning frameworks"><meta property="og:title" content="How to start with Deep Learning" />
+<meta property="og:description" content="A description of popular deep learning frameworks" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2021/08/start-with-dl/" />
+<meta property="og:image" content="http://example.org/logo.png"/>
+<meta property="article:published_time" content="2021-08-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-08-10T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/logo.png"/>
+
+<meta name="twitter:title" content="How to start with Deep Learning"/>
+<meta name="twitter:description" content="A description of popular deep learning frameworks"/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/2021/08/start-with-dl/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to start with Deep Learning",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/2021\/08\/start-with-dl\/"
+        },"genre": "posts","keywords": "Deep Learning, Python, JavaScript","wordcount":  626 ,
+        "url": "http:\/\/example.org\/2021\/08\/start-with-dl\/","datePublished": "2021-08-10T00:00:00+00:00","dateModified": "2021-08-10T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "Alexandros"},"author": {
+                "@type": "Person",
+                "name": "Alexandros"
+            },"description": "A description of popular deep learning frameworks"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="The Curious Coder">The Curious Coder</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="The Curious Coder">The Curious Coder</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">How to start with Deep Learning</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Alexandros</a></span>&nbsp;<span class="post-category">included in <a href="/categories/machine-learning/"><i class="far fa-folder fa-fw"></i>Machine Learning</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-08-10">2021-08-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;626 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="featured-image.png"
+        data-srcset="featured-image.png, featured-image.png 1.5x, featured-image.png 2x"
+        data-sizes="auto"
+        alt="featured-image.png"
+        title="A description of popular deep learning frameworks" /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#embracing-the-hype">Embracing the hype</a></li>
+    <li><a href="#a-zoo-of-deep-learning-frameworks">A zoo of Deep Learning Frameworks</a>
+      <ul>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="#c">C++</a></li>
+        <li><a href="#last-but-not-least-python">Last but not least: Python</a></li>
+      </ul>
+    </li>
+    <li><a href="#bonus---julia">BONUS - Julia</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="embracing-the-hype">Embracing the hype</h2>
+<p>Nowadays, everyone is talking about Artificial Intelligence. Whether understands it or not.
+This discussion essentially comes down to two terms: Machine Learning and Deep Learning.</p>
+<p><strong>Machine learning</strong> (<strong>ML</strong>) is the study of computer algorithms that improve automatically through experience and by the use of data.</p>
+<p>Deep Learning is a type of Machine Learning based on Artificial Neural Networks with multiple layers.</p>
+<p><strong>Artificial neural networks</strong> (<strong>ANNs</strong>) are computing systems inspired by the biological neural networks that constitute animal brains.</p>
+<p>Deep Learning is gaining much popularity due to its supremacy in terms of accuracy when trained with a huge amount of data.</p>
+<p>I would say you should at least give a try to Deep Learning. It is a quite marketable skill these days.</p>
+<h2 id="a-zoo-of-deep-learning-frameworks">A zoo of Deep Learning Frameworks</h2>
+<p>Every beginner in Deep Learning has to choose the most suitable framework.
+Where should you invest your time though?</p>
+<p>This post is going to help you get started with DL frameworks.</p>
+<p>Frankly, you have many options. But you first need to choose your language.</p>
+<p>Most popular choices in this context: JavaScript, Python, and C++.</p>
+<h3 id="javascript">JavaScript</h3>
+<p>This makes sense when you want to train or run your model in the browser.</p>
+<p>By far the most popular choice here is <a href="https://www.tensorflow.org/js" target="_blank" rel="noopener noreffer">TensorFlow.js</a>.
+In the past, I have worked on a browser extension that uses Tersorflow.js to produce a verdict about an article’s credibility.
+The experience was really good. The main hardships with machine learning in the browser are mostly in the preprocessing libraries rather than in the algorithm itself.</p>
+<p>Another good one is <a href="https://cs.stanford.edu/people/karpathy/convnetjs/" target="_blank" rel="noopener noreffer">ConvNetJS</a> - but I don’t have much experience using that.</p>
+<h3 id="c">C++</h3>
+<p>Obvious benefit: performance.
+You will lose some of the convenience of scripting languages, but will also get rid of the overhead.</p>
+<p>3 Popular libraries: <a href="https://caffe.berkeleyvision.org/" target="_blank" rel="noopener noreffer">Caffe</a>, <a href="https://docs.microsoft.com/en-us/cognitive-toolkit/" target="_blank" rel="noopener noreffer">The Microsoft Cognitive Toolkit</a> and <a href="http://leenissen.dk/fann/wp/" target="_blank" rel="noopener noreffer">Fast Artificial Neural Network Library (FANN)</a>.</p>
+<h3 id="last-but-not-least-python">Last but not least: Python</h3>
+<p>Most Data Scientists are using either Python or Matlab and R.</p>
+<p>Python has become by far the most widely used language for DL.
+4 popular frameworks: <a href="https://pytorch.org/" target="_blank" rel="noopener noreffer">PyTorch</a>, <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreffer">TensorFlow</a>, <a href="https://github.com/aesara-devs/aesara" target="_blank" rel="noopener noreffer">Aesara</a> and <a href="https://keras.io/" target="_blank" rel="noopener noreffer">Keras</a>.</p>
+<p>Let’s compare them.</p>
+<p><strong>PyTorch</strong>:</p>
+<p>Developed by Facebook AI, it has a reputation for simplicity, ease of use, flexibility, efficient memory usage, and dynamic computational graphs.</p>
+<p>It is one of the easiest to get started with. And it is mostly being used for research.</p>
+<p><strong>Tensorflow</strong>:</p>
+<p>Developed by Google, it is known for documentation and training support, scalable production, multiple abstraction levels, and support for different platforms, such as Android.</p>
+<p>It has a steeper learning curve and is mostly being used in the industry.</p>
+<p><strong>Keras</strong>:</p>
+<p>Keras is an effective high-level neural network API and the easiest for beginners.</p>
+<p>This open-source neural network library is designed to provide fast experimentation with deep neural networks, and it can run on top of CNTK, TensorFlow, and Theano.</p>
+<p><strong>Aesara</strong>:</p>
+<p>Former project name: Theano.
+Theano was developed by the Universite de Montreal and is a foundational library used for DL in Python.</p>
+<p>It’s considered the grandfather of deep learning frameworks and has fallen out of favor by most researchers outside academia.</p>
+<p>Now the project is abandoned, and the repo points to the Aesara project.</p>
+<p><strong>Features</strong>:</p>
+<p>Aesara is suitable for the rapid development of custom operators and symbolic optimizations.</p>
+<p>It implements an extensible graph transpilation framework that currently provides compilation via C,  <a href="https://github.com/google/jax" target="_blank" rel="noopener noreffer">JAX</a> and  <a href="https://github.com/numba/numba" target="_blank" rel="noopener noreffer">Numba</a>.</p>
+<h2 id="bonus---julia">BONUS - Julia</h2>
+<p>Julia is a new language for data science that is increasing in popularity.
+It is built to provide flexibility and performance. I must say that Julia is optimized for heavy matrix operations.</p>
+<p>If you are interested in trying Machine Learning with Julia I would suggest trying <a href="https://fluxml.ai/" target="_blank" rel="noopener noreffer">Flux</a>, a Machine Learning Stack.</p>
+<p>If you want to use Tensorflow there is a Julia wrapper for that, called <strong>TensorFlow.jl</strong>.
+The experience will be quite smooth :).</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-08-10</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/deep-learning/">Deep Learning</a>,&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/javascript/">JavaScript</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Kornilakis</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -6,11 +6,11 @@ tags: ["Deep Learning", "Python", "JavaScript"]
 categories: ["Machine Learning"]
 description: "A description of popular deep learning frameworks"
 
-resources:
-- name: "featured-image"
-  src: "Deep-Neural-Network-architecture.png"
-- name: "featured-image-preview"
-  src: "Deep-Neural-Network-architecture.png"
+featuredImage: "/images/Deep-Neural-Network-architecture.png"
+featuredImagePreview: "/images/Deep-Neural-Network-architecture-preview.png"
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
 
 lightgallery: true
 ---

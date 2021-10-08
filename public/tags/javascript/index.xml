@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>JavaScript - Tag - The Curious Coder</title>
+        <link>http://example.org/tags/javascript/</link>
+        <description>JavaScript - Tag - The Curious Coder</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/javascript/" rel="self" type="application/rss+xml" /><item>
+    <title>How to start with Deep Learning</title>
+    <link>http://example.org/2021/08/start-with-dl/</link>
+    <pubDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://example.org/2021/08/start-with-dl/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-image.png" referrerpolicy="no-referrer">
+            </div>Embracing the hype Nowadays, everyone is talking about Artificial Intelligence. Whether understands it or not. This discussion essentially comes down to two terms: Machine Learning and Deep Learning.
+Machine learning (ML) is the study of computer algorithms that improve automatically through experience and by the use of data.
+Deep Learning is a type of Machine Learning based on Artificial Neural Networks with multiple layers.
+Artificial neural networks (ANNs) are computing systems inspired by the biological neural networks that constitute animal brains.]]></description>
+</item></channel>
+</rss>
