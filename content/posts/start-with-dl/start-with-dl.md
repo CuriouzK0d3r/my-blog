@@ -1,13 +1,21 @@
 ---
-title: How to start with Deep Learning
-slug: /start-with-dl
-date: 2021-07-10T00:00:00.000Z
+author: "Alexandros"
+title: "How to start with Deep Learning"
+date: 2021-08-10T00:00:00.000Z
 tags: ["Deep Learning", "Python", "JavaScript"]
 categories: ["Machine Learning"]
-description: A description of popular deep learning frameworks
+description: "A description of popular deep learning frameworks"
+
+resources:
+- name: "featured-image"
+  src: "Deep-Neural-Network-architecture.png"
+- name: "featured-image-preview"
+  src: "Deep-Neural-Network-architecture.png"
+
+lightgallery: true
 ---
 
-# Embracing the hype
+## Embracing the hype
 Nowadays, everyone is talking about Artificial Intelligence. Whether understands it or not.
 This discussion essentially comes down to two terms: Machine Learning and Deep Learning.
 
@@ -21,7 +29,7 @@ Deep Learning is gaining much popularity due to its supremacy in terms of accura
 
 I would say you should at least give a try to Deep Learning. It is a quite marketable skill these days.
 
-# A zoo of Deep Learning Frameworks
+## A zoo of Deep Learning Frameworks
 Every beginner in Deep Learning has to choose the most suitable framework.
 Where should you invest your time though?
 
@@ -87,7 +95,7 @@ Aesara is suitable for the rapid development of custom operators and symbolic op
 
 It implements an extensible graph transpilation framework that currently provides compilation via C,  [JAX](https://github.com/google/jax) and  [Numba](https://github.com/numba/numba).
 
-# BONUS - Julia
+## BONUS - Julia
 Julia is a new language for data science that is increasing in popularity.
 It is built to provide flexibility and performance. I must say that Julia is optimized for heavy matrix operations.
 
