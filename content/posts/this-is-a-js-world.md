@@ -1,21 +1,22 @@
 ---
-author: "Alexandros"
-title: "This is a JavaScript world! 5 Languages that compile to JS"
-date: 2022-01-26T00:00:00.000Z
-tags: ["JavaScript", "CoffeeScript", "ReScript"]
-categories: ["Programming"]
-description: "5 Languages that compile to JS"
-
+author: Alexandros
+title: This is a JavaScript world! 5 Languages that compile to JS
+date: 2022-01-26T00:00:00.000+00:00
+tags:
+- JavaScript
+- CoffeeScript
+- ReScript
+categories:
+- Programming
+description: 5 Languages that compile to JS
 featuredImage: "/images/transpilation_diagram.jpg"
 featuredImagePreview: "/images/transpilation_diagram.jpg"
-
 hiddenFromHomePage: false
 hiddenFromSearch: false
-
 lightgallery: true
----
 
-If you are a web developer, you probably have… developed a love-and-hate relationship with JavaScript.
+---
+If you are a web developer, you probably have… developed a love-and-hate relationship with JavaScript :)
 
 While it is a feature-rich and constantly evolving language, it has some limitations. Especially when it comes to complex applications it may fall short.
 
@@ -39,7 +40,7 @@ TypeScript is both a language and a set of tools. TypeScript is a typed superset
 The main difference - and benefit - of Typescript over JavaScript is its type system.
 
 TypeScript will compile the code and generate compilation errors if it finds some sort of syntax errors. This helps to highlight errors before the script is run.
-TypeScript comes with an optional static typing and type inference system through the TLS (TypeScript Language Service). 
+TypeScript comes with an optional static typing and type inference system through the TLS (TypeScript Language Service).
 
 TypeScript also supports Object-Oriented Programming concepts like classes, interfaces, inheritance, etc.
 
@@ -58,9 +59,9 @@ add = function(a:number,b:number):number{
 
 ## Elm
 
-Elm is a functional language that compiles to JavaScript. 
+Elm is a functional language that compiles to JavaScript.
 
-It helps you make websites and web apps. It has a strong emphasis on simplicity and quality tooling. 
+It helps you make websites and web apps. It has a strong emphasis on simplicity and quality tooling.
 Elm was initially designed by Evan Czaplicki as his thesis in 2012.
 
 ### Why use Elm?
@@ -70,11 +71,8 @@ Elm promises no run time exceptions - no annoying "undefined is not a function".
 Also:
 
 * Immutability and Uni-directional data flow is baked right in
-
 * Functional design and currying make a functional composition
-
 * Styling system based on modern CSS in JS approaches (see styled-components)
-
 * Performance is quite good as well - comparing it to React and Vue it seems to produce slightly-smaller bundle sizes and faster render times.
 
 ### Code examples
@@ -101,10 +99,10 @@ main =
 
 ## ReScript
 
-[ReScript](https://rescript-lang.org/) (formerly *ReasonML*) is the brainchild of React framework creator Jordan Walke. Although the language has only existed since 2016, an entire team is now working on its further development. Besides Facebook and financial giant Bloomberg, volunteer enthusiasts from all over the world are involved. 
+[ReScript](https://rescript-lang.org/) (formerly _ReasonML_) is the brainchild of React framework creator Jordan Walke. Although the language has only existed since 2016, an entire team is now working on its further development. Besides Facebook and financial giant Bloomberg, volunteer enthusiasts from all over the world are involved.
 
 Surprisingly, however, ReScript is not a completely new language. The underlying [OCaml](https://ocaml.org/) has been around since 1996, and Walke noticed that OCaml was a good fit for React, but the unfamiliar syntax put off many front-end developers.
-So he came up with the idea: How about giving the OCaml language a syntax that allows JavaScript developers to quickly find their way around? Thus, ReScript allows the concepts of a mature functional programming language with the popular [Hindley-Milner type system](https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system) to be transferred to the frontend in a very short time. 
+So he came up with the idea: How about giving the OCaml language a syntax that allows JavaScript developers to quickly find their way around? Thus, ReScript allows the concepts of a mature functional programming language with the popular [Hindley-Milner type system](https://en.wikipedia.org/wiki/Hindley%E2%80%93Milner_type_system) to be transferred to the frontend in a very short time.
 
 The idea of ReScript is to consolidate these tools into something a little more coherent so as a developer you’re not trying to figure out how OCaml, BuckleScript, and Reason fit together.
 
@@ -119,7 +117,7 @@ Here are a couple more selling points:
 
 #### Build Performance
 
-ReScript is fast to compile. If you’re used to lengthy Webpack builds that we’ve come to expect of modern tooling, ReScript will look like lighting. The build system is capable of handling projects of very large sizes quite quickly. 
+ReScript is fast to compile. If you’re used to lengthy Webpack builds that we’ve come to expect of modern tooling, ReScript will look like lighting. The build system is capable of handling projects of very large sizes quite quickly.
 
 #### TypeScript generation
 
@@ -144,26 +142,19 @@ CoffeeScript is developed by Jeremy Ashkenas. It was first committed in Git On D
 Originally the compiler of CoffeeScript was written in Ruby language.
 In March 2010, the CoffeeScript compiler was replaced; this time instead of Ruby, they used CoffeeScript itself.
 
-CoffeeScript is a lightweight language based on Ruby and Python which transcompiles (compiles from one source language to another) into JavaScript. 
+CoffeeScript is a lightweight language based on Ruby and Python which transcompiles (compiles from one source language to another) into JavaScript.
 
 It provides better syntax avoiding the quirky parts of JavaScript, still retaining the flexibility and beauty of the language.
 
 ### Why use CoffeeScript?
 
 * Easily understandable − CoffeeScript is a shorthand form of JavaScript, its syntax is pretty simple compared to JavaScript. Using CoffeeScript, we can write clean, clear, and easily understandable codes.
-
 * Write less do more − For a huge code in JavaScript, we need comparatively a very less number of lines of CoffeeScript.
-
 * Reliable − CoffeeScript is a safe and reliable programming language to write dynamic programs.
-
 * Readable and maintainable − CoffeeScript provides aliases for most of the operators which makes the code readable. It is also easy to maintain the programs written in CoffeeScript.
-
 * Class-based inheritance − Unlike JavaScript, we can create classes and inherit them in CoffeeScript. In addition to this, it also provides instance and static properties as well as mixins. It uses JavaScript's native prototype to create classes.
-
 * No var keyword − There is no need to use the var keyword to create a variable in CoffeeScript, thus we can avoid accidental or unwanted scope deceleration.
-
 * Avoids problematic symbols − There is no need to use the problematic semicolons and parenthesis in CoffeeScript. Instead of curly braces, we can use whitespaces to differentiate the block codes like functions, loops, etc.
-
 * Extensive library support − In CoffeeScript, we can use the libraries of JavaScript and vice versa. Therefore, we have access to a rich set of libraries while working with CoffeeScript.
 
 ### Code examples
@@ -210,16 +201,12 @@ F# (pronounced f-sharp) is a strongly typed Functional programming language that
 F# is a great choice to build beautiful apps that run in the browser. F# is:
 
 * Succinct with lightweight syntax
-
 * Robust with a great type system and pattern matching
-
 * Safe with immutability baked into the language
-
 * Supported by large companies (such as Microsoft and Jetbrains) and comes with commercial tooling support
-
 * When compared with JavaScript, F# is safer, more robust, and more pleasant to read and write.
 
-F# is a mature language with functional programming and object programming capabilities, but it doesn't sacrifice readability or simplicity to offer these things. 
+F# is a mature language with functional programming and object programming capabilities, but it doesn't sacrifice readability or simplicity to offer these things.
 
 Because of that, it can be a great choice for your next JavaScript application.
 
