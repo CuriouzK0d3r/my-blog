@@ -1,7 +1,7 @@
 ---
 author: "Alexandros"
 title: "Learn You a Functional Programming for Great Good!"
-date: 2021-7-8T00:00:00.000Z
+date: 2021-07-08T00:00:00.000Z
 tags: ["Haskell", "Functional Programming"]
 categories: ["Programming"]
 description: "Why should we learn FP?"
