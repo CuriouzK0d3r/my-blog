@@ -186,13 +186,21 @@ theme = "LoveIt"
     title = ""
     weight = 3
   [[menu.main]]
+    identifier = "newsletter"
+    pre = ""
+    post = ""
+    name = "newsletter"
+    url = "https://newsletter.digital-lifestyle.tech"
+    title = ""
+    weight = 4
+  [[menu.main]]
     identifier = "about"
     pre = ""
     post = ""
     name = "About"
     url = "/about"
     title = ""
-    weight = 4
+    weight = 5
 
 # Permalinks config
 [Permalinks]
