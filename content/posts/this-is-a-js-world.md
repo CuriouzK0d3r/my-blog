@@ -16,7 +16,7 @@ hiddenFromSearch: false
 lightgallery: true
 
 ---
-If you are a web developer, you probably have… developed a love-and-hate relationship with JavaScript.
+If you are a web developer you probably have… developed a love-and-hate relationship with JavaScript.
 
 While it is a feature-rich and constantly evolving language, it has some limitations. Especially when it comes to complex applications it may fall short.
 
