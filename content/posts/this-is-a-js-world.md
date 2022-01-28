@@ -13,7 +13,7 @@ featuredImage: "/images/transpilation_diagram.jpg"
 featuredImagePreview: ''
 hiddenFromHomePage: false
 hiddenFromSearch: false
-lightgallery: false
+lightgallery: true
 
 ---
 If you are a web developer you probably have… developed a love-and-hate relationship with JavaScript.
