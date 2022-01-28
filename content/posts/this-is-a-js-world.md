@@ -10,7 +10,7 @@ categories:
 - Programming
 description: 5 Languages that compile to JS
 featuredImage: "/images/transpilation_diagram.jpg"
-featuredImagePreview: "/images/transpilation_diagram.jpg"
+featuredImagePreview: ''
 hiddenFromHomePage: false
 hiddenFromSearch: false
 lightgallery: true
