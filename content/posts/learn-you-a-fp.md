@@ -1,20 +1,20 @@
 ---
-author: "Alexandros"
-title: "Learn You a Functional Programming for Great Good!"
-date: 2021-07-08T00:00:00.000Z
-tags: ["Haskell", "Functional Programming"]
-categories: ["Programming"]
-description: "Why should we learn FP?"
-
+author: Alexandros
+title: Learn You a Functional Programming for Great Good!
+date: 2021-07-08T00:00:00.000+00:00
+tags:
+- Haskell
+- Functional Programming
+categories:
+- Programming
+description: Why should we learn FP?
 featuredImage: "/images/fp.webp"
-featuredImagePreview: "/images/fp.webp"
-
+featuredImagePreview: ''
 hiddenFromHomePage: false
 hiddenFromSearch: false
-
 lightgallery: true
----
 
+---
 Level of knowledge required: This article requires some programming background to be fully understood.
 
 ## Introduction
