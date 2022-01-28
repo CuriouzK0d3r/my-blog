@@ -49,11 +49,15 @@ defaultTheme = "auto"
 description = "This is My New Hugo Site"
 fingerprint = ""
 gitRepo = ""
-analytics=true
-analytics.google.id='G-0WH584XEK3'
 images = ["/logo.png"]
 keywords = ["Theme", "Hugo"]
 version = "0.2.X"
+[params.analytics]
+enable = true
+# Google Analytics
+[params.analytics.google]
+id = "G-0WH584XEK3"
+anonymizeIP = true
 [params.app]
 iconColor = "#5bbad5"
 noFavicon = true
