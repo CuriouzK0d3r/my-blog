@@ -7,7 +7,7 @@ categories: ["Machine Learning"]
 description: "A description of popular deep learning frameworks"
 
 featuredImage: "/images/Deep-Neural-Network-architecture.png"
-featuredImagePreview: ""
+featuredImagePreview: "/images/Deep-Neural-Network-architecture-preview.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
