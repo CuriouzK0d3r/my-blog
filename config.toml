@@ -12,21 +12,13 @@ name = "Kornilakis"
 [markup.highlight]
 noClasses = false
 [[menu.main]]
-identifier = "about"
-name = "About"
+identifier = "posts"
+name = "Posts"
 post = ""
 pre = ""
 title = ""
-url = "/about"
-weight = 4
-[[menu.main]]
-identifier = "newsletter"
-name = "Newsletter"
-post = ""
-pre = ""
-title = ""
-url = "https://newsletter.digital-lifestyle.tech"
-weight = 3
+url = "/posts/"
+weight = 1
 [[menu.main]]
 identifier = "categories"
 name = "Categories"
@@ -36,13 +28,21 @@ title = ""
 url = "/categories/"
 weight = 2
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
+identifier = "newsletter"
+name = "Newsletter"
 post = ""
 pre = ""
 title = ""
-url = "/posts/"
-weight = 1
+url = "https://newsletter.kornilakis.com"
+weight = 3
+[[menu.main]]
+identifier = "about"
+name = "About"
+post = ""
+pre = ""
+title = ""
+url = "/about"
+weight = 4
 [params]
 dateFormat = "2006-01-02"
 defaultTheme = "auto"
@@ -54,10 +54,9 @@ keywords = ["Theme", "Hugo"]
 version = "0.2.X"
 [params.analytics]
 enable = true
-# Google Analytics
 [params.analytics.google]
-id = "G-0WH584XEK3"
 anonymizeIP = true
+id = "G-0WH584XEK3"
 [params.app]
 iconColor = "#5bbad5"
 noFavicon = true
