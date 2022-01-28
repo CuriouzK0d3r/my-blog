@@ -1,9 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://kornilakis.com/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
 title = "The Curious Developer"
+googleAnalytics = 'G-0WH584XEK3'
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -12,7 +13,7 @@ theme = "LoveIt"
   # LoveIt CHANGED | 0.2.0 LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "This is My New Hugo Site"
+  description = "Alexandros Kornilakis Personal Website"
   # site keywords
   keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
