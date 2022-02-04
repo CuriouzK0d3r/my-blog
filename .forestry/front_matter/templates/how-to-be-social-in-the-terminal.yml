@@ -35,3 +35,5 @@ fields:
 - type: boolean
   name: lightgallery
   label: lightgallery
+pages:
+- content/posts/how-to-be-social-in-the-terminal.md
