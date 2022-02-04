@@ -1,0 +1,37 @@
+---
+label: How to be social in the terminal
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: description
+  label: description
+- type: file
+  name: featuredImage
+  label: featuredImage
+- type: text
+  name: featuredImagePreview
+  label: featuredImagePreview
+- type: boolean
+  name: hiddenFromHomePage
+  label: hiddenFromHomePage
+- type: boolean
+  name: hiddenFromSearch
+  label: hiddenFromSearch
+- type: boolean
+  name: lightgallery
+  label: lightgallery
