@@ -3,7 +3,6 @@ author = "Alexandros"
 categories = ["life"]
 date = 2021-05-30T21:00:00Z
 description = "Why go off the grid"
-draft = true
 featuredImage = "/images/7rmmnhwrb.jpg"
 featuredImagePreview = ""
 hiddenFromHomePage = false
