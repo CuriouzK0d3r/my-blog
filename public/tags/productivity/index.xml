@@ -1,0 +1,39 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Productivity - Tag - The Curious Coder</title>
+        <link>http://localhost:1313/tags/productivity/</link>
+        <description>Productivity - Tag - The Curious Coder</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 30 Jun 2021 21:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/productivity/" rel="self" type="application/rss+xml" /><item>
+    <title>How to be social in the terminal</title>
+    <link>http://localhost:1313/2021/06/how-to-be-social-in-the-terminal/</link>
+    <pubDate>Wed, 30 Jun 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/06/how-to-be-social-in-the-terminal/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/social.jpg" referrerpolicy="no-referrer">
+            </div>Online social networks Whoever knows me personally is aware that I am not the biggest fan of social networks. Don&rsquo;t get me wrong, I was always involved with them. Understanding social networks was also part of my research interests for a quite long time. But my relationship with them was always a love and hate one.
+In this blog, I&rsquo;m going to talk a lot about this relationship.
+In this post, though I will diverge from this discussion.]]></description>
+</item><item>
+    <title>How to live your digital life in a terminal : Introduction</title>
+    <link>http://localhost:1313/2021/06/how-to-live-your-digital-life-in-a-terminal-introduction/</link>
+    <pubDate>Sun, 20 Jun 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/06/how-to-live-your-digital-life-in-a-terminal-introduction/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/zueyl-nt1x.jpg" referrerpolicy="no-referrer">
+            </div>The bloated web I recall a few years ago me sharing Mozilla’s dream for the web. The web was on its way to become the main platform for internet users. And that was supposed to be a good thing, due to its openness and the freedom that it was providing. But freedom and control are relative concepts.
+Web now has become bloated with unnecessary code, advertisements, pop-ups, comments and recommendation systems that are trying to mine our data and keep us hooked in their user interfaces by providing us with constants hits of dopamine.]]></description>
+</item><item>
+    <title>Why I occasionally go off the grid</title>
+    <link>http://localhost:1313/2021/05/why-i-occasionally-go-off-the-grid/</link>
+    <pubDate>Sun, 30 May 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/05/why-i-occasionally-go-off-the-grid/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/7rmmnhwrb.jpg" referrerpolicy="no-referrer">
+            </div>A great day for scrolling It’s a great day outside. The sun is up.
+The weather is good and you are enjoying this relaxing day. Suddenly, you hear a beeping sound. It’s your phone notifying you of a new message. You text back and you put your phone back in your pocket.
+Another sound. Yay! Someone new followed you on Twitter. “Let’s see who this is!” You tell yourself. You open the app and start scrolling.]]></description>
+</item></channel>
+</rss>

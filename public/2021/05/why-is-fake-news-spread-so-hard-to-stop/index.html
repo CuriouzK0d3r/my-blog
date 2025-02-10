@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Why is Fake News Spread so Hard to Stop? - The Curious Coder</title><meta name="Description" content="The hardships in FN detection"><meta property="og:url" content="http://localhost:1313/2021/05/why-is-fake-news-spread-so-hard-to-stop/">
+  <meta property="og:site_name" content="The Curious Coder">
+  <meta property="og:title" content="Why is Fake News Spread so Hard to Stop?">
+  <meta property="og:description" content="The hardships in FN detection">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-05-12T21:00:00+00:00">
+    <meta property="article:modified_time" content="2021-05-12T21:00:00+00:00">
+    <meta property="article:tag" content="Fake-News">
+    <meta property="article:tag" content="Machine-Learning">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="Why is Fake News Spread so Hard to Stop?">
+  <meta name="twitter:description" content="The hardships in FN detection">
+      <meta name="twitter:site" content="@ck0d3r">
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="http://localhost:1313/2021/05/why-is-fake-news-spread-so-hard-to-stop/" /><link rel="next" href="http://localhost:1313/2021/05/why-i-occasionally-go-off-the-grid/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Why is Fake News Spread so Hard to Stop?",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/2021\/05\/why-is-fake-news-spread-so-hard-to-stop\/"
+        },"genre": "posts","keywords": "fake-news, machine-learning","wordcount":  1084 ,
+        "url": "http:\/\/localhost:1313\/2021\/05\/why-is-fake-news-spread-so-hard-to-stop\/","datePublished": "2021-05-12T21:00:00+00:00","dateModified": "2021-05-12T21:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "Alexandros"},"author": {
+                "@type": "Person",
+                "name": "Alexandros"
+            },"description": "The hardships in FN detection"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="The Curious Coder">The Curious Developer</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="https://webcompiled.tech" rel="noopener noreffer" target="_blank"> WebCompiled </a><a class="menu-item" href="/resume"> Resume </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="The Curious Coder">The Curious Developer</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="https://webcompiled.tech" title="" rel="noopener noreffer" target="_blank">WebCompiled</a><a class="menu-item" href="/resume" title="">Resume</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Why is Fake News Spread so Hard to Stop?</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Alexandros</a></span>&nbsp;<span class="post-category">included in <a href="/categories/machine-learning/"><i class="far fa-folder fa-fw"></i>Machine Learning</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-05-12">2021-05-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1084 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/vxaimuibyt.jpg"
+        data-srcset="/images/vxaimuibyt.jpg, /images/vxaimuibyt.jpg 1.5x, /images/vxaimuibyt.jpg 2x"
+        data-sizes="auto"
+        alt="/images/vxaimuibyt.jpg"
+        title="The hardships in FN detection" /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#some-history">Some History</a></li>
+    <li><a href="#fake-news-ecosystems">Fake News Ecosystems</a></li>
+    <li><a href="#the-big-data-problem">The Big Data Problem</a></li>
+    <li><a href="#a-more-pragmatic-approach">A more Pragmatic Approach</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="some-history">Some History</h2>
+<p>Disinformation is not a recent issue. As Guardian columnist Natalie Nougayr`ede has observed: ”The use of propaganda is ancient, but never before has there been the technology to so effectively disseminate it” [1].</p>
+<p>Misinformation, disinformation, and propaganda have been features of human communication since at least the Roman times [2]. However, the invention of the Gutenberg printing press in 1493 dramatically amplified the dissemination of disinformation and misinformation, and it ultimately delivered the first large-scale news hoax - ’The Great Moon Hoax’ of 1835.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://cdn.hashnode.com/res/hashnode/image/upload/v1624355037884/hgEoQsEaU.jpeg"
+        data-srcset="https://cdn.hashnode.com/res/hashnode/image/upload/v1624355037884/hgEoQsEaU.jpeg, https://cdn.hashnode.com/res/hashnode/image/upload/v1624355037884/hgEoQsEaU.jpeg 1.5x, https://cdn.hashnode.com/res/hashnode/image/upload/v1624355037884/hgEoQsEaU.jpeg 2x"
+        data-sizes="auto"
+        alt="https://cdn.hashnode.com/res/hashnode/image/upload/v1624355037884/hgEoQsEaU.jpeg"
+        title="Great-Moon-Hoax-1835-New-York-Sun-lithograph-298px" /></p>
+<p>As early as 1925, when news offices started to connect via wire, the authenticity of information became a concern. Editors did not know whether the news coming in through the wire was true or not. They could try to infer authenticity based on the source of the news, but still, the concern remained: is this piece of news that just came over the wire true or not?</p>
+<p>Although the concern was there, the editors usually managed to find ways to mitigate it and reduce the intentional misinformation to the minimum possible: after all, the amount of news that came over the wire and could potentially be misinformation was not that large.</p>
+<p>Unfortunately, the ”tsunami” of social media engagement that has swept our lives over the past decade practically exploded the proliferation of misinformation including the associated distribution of fake news [3].</p>
+<h2 id="fake-news-ecosystems">Fake News Ecosystems</h2>
+<p>Someone may consider fake news as false information. Yet, this viewpoint may not be precise.
+Instead, researchers usually define it as deliberately false information.</p>
+<p>The motivation behind the creation and spread of fake news content may vary. Trend Micro curently sees three major motivations behind fake news [4]: political, financial gain, and character assassination. More analytically, political propaganda is designed to get people to change their minds about their political beliefs or some other opinion. The most obvious financial motivation could be advertising, while character assassination by fake news could target politicians or even private individuals to cause harm.</p>
+<p>We now know from related studies, that false information spreads faster than real information [5]. These studies point to the human predisposition in being attracted by novelty - it is known that false news carries more novelty - to explain this. It is not bots that usually spread the misinformation; This is mainly done by humans. Yet the technological processes - social media, algorithmic news curation, bots, artificial intelligence, and big data analysis - are creating echo chambers that reinforce our biases, remove incidia of trustworthiness, and are overwhelming our capacity to make sense the world.</p>
+<p>The biggest threat of misinformation is the one that poses to our democracy. Echo chambers ringing with false news can make democracies ungovernable. We can imagine a pluralist democracy in which populations contested elections, without ever sharing a viewpoint on what is going on in the world. Whoever won would design policies to counter what they saw as the major policy question of our times. Since these viewpoints would be isolated and different, such pluralist democracy would be deeply unstable [6].</p>
+<h2 id="the-big-data-problem">The Big Data Problem</h2>
+<p>Although linguistic methods for fake news detection have achieved a reasonable accuracy, I believe we have reached a barrier.
+And that this barrier, that creates a hardship in achieving a better accuracy, is related to the quality of data.</p>
+<p>The goal of the style-based (linguistic) methods is to capture the “deception style”, meaning the writing style of fake news writers. Yet, there are some pitfalls with these methods. They may end up capturing the writing style of specific authors instead of the deception style. This way, even if a trained model performs well in similar data, they do not generalize. The writing style of a document is defined by the author, the topic and the editor (if there is one). So, a dataset should contain many authors, news domains and topics.</p>
+<p>Finally, as stated in [7], Fake News is a big data problem. We need many data points, solid ground truth and balance over 4 axes: labels, topics, authors and news websites. For example, some datasets are created by downloading articles from websites in a flag-list. However, a website that is found to publish fake news, in order to maintain some credibility, it may also publish credible stories. Creating a dataset this way will add noise to the data and reduce accuracy.</p>
+<p>To sum up, to avoid this pitfall, a quality Fake News dataset should have the following properties:</p>
+<ul>
+<li>The ground truth should be solid.</li>
+<li>It should cover many topics.</li>
+<li>It should include different authors and domains that publish articles.</li>
+</ul>
+<p>I propose the creation of a fake news data evaluation framework. That framework can perform topic modeling and stylometric analysis to detect unbalanced datasets. A dataset with many data points that also gets a large score at this
+evaluation will better generalize in real-world (unseen) data.</p>
+<h2 id="a-more-pragmatic-approach">A more Pragmatic Approach</h2>
+<p>There is a reason why Fake News is so easy to spread. Because it is so close to the “Real” News. Because news (as Fake News does) usually tries to exploit the sentiment of the reader. Provide her with enough negativity and lack of perspective, so that she will be in a constant loop of receiving updates, and give purpose to the papers. The burning issue is not fake news. It’s the news itself.</p>
+<p>Fake news is usually a symptom of a deeper pathogen. It’s true that fake news is causing confusion. However, people who are confused end up embracing the fake news.</p>
+<p>And this confusion is caused by the lack of transparency, by political inconsistencies, by the lies that are spread and the anger rising on the people’s heart.</p>
+<p>Instead of using Artificial Intelligence just to find the “fake stories”, let’s use these tools to understand the underlying societal issues and the malfunctions of the news ecosystem.</p>
+<h2 id="references">References</h2>
+<ol>
+<li>Natalie Nougayr’ede. In this age of propaganda, we must defend ourselves. here’s how — Natalie nougayr’ede, Jan 2018.</li>
+<li>A short guide to the history of ’fake news’ and disinformation, Jul 2018.</li>
+<li>Miriam Fernandez and Harith Alani. Online misinformation: Challenges and future directions.</li>
+<li>Fake news and cyber propaganda: The use and abuse of social media.</li>
+<li>Soroush Vosoughi, Deb Roy, and Sinan Aral. The spread of true and false news online. Science, 359(6380):1146–1151, 2018.</li>
+<li>Yochai Benkler, Robert Faris, and Hal Roberts. Network propaganda: Manipulation, disinformation, and radicalization in American politics. Oxford University Press, 2018</li>
+<li>Fatemeh Torabi Asr and Maite Taboada. Big data and quality data for fake news and misinformation detection. Big Data &amp; Society, 6(1):2053951719843310, 2019.</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-05-12</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/fake-news/">Fake-News</a>,&nbsp;<a href="/tags/machine-learning/">Machine-Learning</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/2021/05/why-i-occasionally-go-off-the-grid/" class="next" rel="next" title="Why I occasionally go off the grid">Why I occasionally go off the grid<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Kornilakis</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

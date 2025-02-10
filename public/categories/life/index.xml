@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Life - Category - The Curious Coder</title>
+        <link>http://localhost:1313/categories/life/</link>
+        <description>Life - Category - The Curious Coder</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Jun 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/life/" rel="self" type="application/rss+xml" /><item>
+    <title>Computer Science as a Medicine</title>
+    <link>http://localhost:1313/2021/06/cs-as-a-medicine/</link>
+    <pubDate>Tue, 22 Jun 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/06/cs-as-a-medicine/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cs.jpg" referrerpolicy="no-referrer">
+            </div>Introduction It was November 2019 and I was on the plane flying to another country. I was going to move there. This was something far outside my comfort zone, and I was a bit terrified. I knew that I would have to deal with a stream of new challenges, and this made me a bit anxious.
+I started reading a computer science book I had bought for my trip. The title was ”Algorithms to Live By”.]]></description>
+</item><item>
+    <title>Why I occasionally go off the grid</title>
+    <link>http://localhost:1313/2021/05/why-i-occasionally-go-off-the-grid/</link>
+    <pubDate>Sun, 30 May 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/05/why-i-occasionally-go-off-the-grid/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/7rmmnhwrb.jpg" referrerpolicy="no-referrer">
+            </div>A great day for scrolling It’s a great day outside. The sun is up.
+The weather is good and you are enjoying this relaxing day. Suddenly, you hear a beeping sound. It’s your phone notifying you of a new message. You text back and you put your phone back in your pocket.
+Another sound. Yay! Someone new followed you on Twitter. “Let’s see who this is!” You tell yourself. You open the app and start scrolling.]]></description>
+</item></channel>
+</rss>

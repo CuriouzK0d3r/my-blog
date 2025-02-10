@@ -1,28 +1,77 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - The Curious Coder</title>
-        <link>http://example.org/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - The Curious Coder</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Deep Learning</title>
-    <link>http://example.org/tags/deep-learning/</link>
-    <pubDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>CoffeeScript</title>
+    <link>http://localhost:1313/tags/coffeescript/</link>
+    <pubDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/tags/deep-learning/</guid>
+    <guid>http://localhost:1313/tags/coffeescript/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>JavaScript</title>
-    <link>http://example.org/tags/javascript/</link>
+    <link>http://localhost:1313/tags/javascript/</link>
+    <pubDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/tags/javascript/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>ReScript</title>
+    <link>http://localhost:1313/tags/rescript/</link>
+    <pubDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/tags/rescript/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Deep Learning</title>
+    <link>http://localhost:1313/tags/deep-learning/</link>
     <pubDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/tags/javascript/</guid>
+    <guid>http://localhost:1313/tags/deep-learning/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Python</title>
-    <link>http://example.org/tags/python/</link>
+    <link>http://localhost:1313/tags/python/</link>
     <pubDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/tags/python/</guid>
+    <guid>http://localhost:1313/tags/python/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Functional Programming</title>
+    <link>http://localhost:1313/tags/functional-programming/</link>
+    <pubDate>Thu, 08 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/tags/functional-programming/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Haskell</title>
+    <link>http://localhost:1313/tags/haskell/</link>
+    <pubDate>Thu, 08 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/tags/haskell/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Linux</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <pubDate>Wed, 30 Jun 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/tags/linux/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Productivity</title>
+    <link>http://localhost:1313/tags/productivity/</link>
+    <pubDate>Wed, 30 Jun 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/tags/productivity/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Social-Media</title>
+    <link>http://localhost:1313/tags/social-media/</link>
+    <pubDate>Wed, 30 Jun 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/tags/social-media/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

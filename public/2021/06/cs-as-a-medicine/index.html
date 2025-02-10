@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Computer Science as a Medicine - The Curious Coder</title><meta name="Description" content="Computer Science as a Medicine"><meta property="og:url" content="http://localhost:1313/2021/06/cs-as-a-medicine/">
+  <meta property="og:site_name" content="The Curious Coder">
+  <meta property="og:title" content="Computer Science as a Medicine">
+  <meta property="og:description" content="Computer Science as a Medicine">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-06-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-06-22T00:00:00+00:00">
+    <meta property="article:tag" content="Algorithms">
+    <meta property="article:tag" content="Computer Science">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="Computer Science as a Medicine">
+  <meta name="twitter:description" content="Computer Science as a Medicine">
+      <meta name="twitter:site" content="@ck0d3r">
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="http://localhost:1313/2021/06/cs-as-a-medicine/" /><link rel="prev" href="http://localhost:1313/2021/06/how-to-live-your-digital-life-in-a-terminal-introduction/" /><link rel="next" href="http://localhost:1313/2021/06/how-to-be-social-in-the-terminal/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Computer Science as a Medicine",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/2021\/06\/cs-as-a-medicine\/"
+        },"genre": "posts","keywords": "algorithms, computer science","wordcount":  1094 ,
+        "url": "http:\/\/localhost:1313\/2021\/06\/cs-as-a-medicine\/","datePublished": "2021-06-22T00:00:00+00:00","dateModified": "2021-06-22T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "Alexandros"},"author": {
+                "@type": "Person",
+                "name": "Alexandros"
+            },"description": "Computer Science as a Medicine"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="The Curious Coder">The Curious Developer</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="https://webcompiled.tech" rel="noopener noreffer" target="_blank"> WebCompiled </a><a class="menu-item" href="/resume"> Resume </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="The Curious Coder">The Curious Developer</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="https://webcompiled.tech" title="" rel="noopener noreffer" target="_blank">WebCompiled</a><a class="menu-item" href="/resume" title="">Resume</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Computer Science as a Medicine</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Alexandros</a></span>&nbsp;<span class="post-category">included in <a href="/categories/life/"><i class="far fa-folder fa-fw"></i>Life</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-06-22">2021-06-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1094 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;6 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/cs.jpg"
+        data-srcset="/images/cs.jpg, /images/cs.jpg 1.5x, /images/cs.jpg 2x"
+        data-sizes="auto"
+        alt="/images/cs.jpg"
+        title="Computer Science as a Medicine" /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#these-are-solved-problems">These are solved problems</a></li>
+    <li><a href="#when-to-stop-looking-or-the-37-rule">When to stop looking (or the 37% rule)</a></li>
+    <li><a href="#when-to-quit-your-job-or-exploration-vs-exploitation">When to quit your job (or exploration vs exploitation)</a></li>
+    <li><a href="#forget-it-or-throw-it-away">Forget it or throw it away</a></li>
+    <li><a href="#dont-overthink">Don’t overthink</a></li>
+    <li><a href="#relax-dont-be-a-perfectionist">Relax (don’t be a perfectionist)</a></li>
+    <li><a href="#finally-on-actions-and-results">Finally: on actions and results</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="introduction">Introduction</h1>
+<p>It was November 2019 and I was on the plane flying to another country. I was going to move there. This was something far outside my comfort zone, and I was a bit terrified.
+I knew that I would have to deal with a stream of new challenges, and this made me a bit anxious.</p>
+<p>I started reading a computer science book I had bought for my trip. The title was ”Algorithms to Live By”. I found it interesting, so I read the introduction.
+Suddenly it stroke me! What if Computer Science was the solution to dealing with unknown practical challenges? What if it could be a medicine for our everyday anxieties?</p>
+<p>Now that this idea has matured in my head, it is time to share the answer with you: it can.</p>
+<h2 id="these-are-solved-problems">These are solved problems</h2>
+<p>Organize your life, finding a parking spot, your ideal job or your next date may sound like consuming tasks.  Struggling with some of these may lead you to a therapist, which will suggest you find a balance in your life. This advice helps, but an algorithm can even point to the exact numbers for this balance.</p>
+<p>Algorithms are heavily inspired by nature and the human brain, but here we suggest the opposite: let the algorithms inspire our decision frameworks. In this post, I will mostly be referring to examples from the aforementioned book. I will leave my findings for a future post.</p>
+<h2 id="when-to-stop-looking-or-the-37-rule">When to stop looking (or the 37% rule)</h2>
+<p>Assume you live in a crowded city and constantly searching for a parking spot in the streets. Or looking to buy/rent a house in a bad real estate market. This can be rather stressful.
+However, we have the 37% rule (or optimal stopping theory). Decide the amount of time you are willing to spend/options to explore. Gather data for the first 37% of them, then make a decision (leap) as soon as you find an option better than the first 37%.</p>
+<p>A more timely example: investing in cryptocurrencies. And more specifically knowing when to sell. Spend 37% of your time to gather data and decide a minimum price threshold. Then sell whenever the price goes higher than that threshold.</p>
+<h2 id="when-to-quit-your-job-or-exploration-vs-exploitation">When to quit your job (or exploration vs exploitation)</h2>
+<p>Have you wondered whether your job is the best you could get? Or your current relationship is the most suitable for you? Sometimes, this question forces us to look for better options. Sometimes, by fear or satisfaction, we choose to stay and support our current decisions.</p>
+<p>What do algorithms suggest though? Surprisingly, the algorithm that leads us in a better direction is traditionally used to help gamblers make better decisions. Upper Confidence Bound Algorithm has the following steps:</p>
+<ol>
+<li>Find an option that offers the best expected value. In the beginning, you may have to choose intuitively.</li>
+<li>Then you should compare the actual outcome with your expectations. Write down these comparisons over time.</li>
+<li>If the real outcome is consistently lower than your expected outcome, you should move onto another option. This option should be the one with the second-best expected outcome.</li>
+<li>Repeat the process.</li>
+</ol>
+<p>Should you quit your job? Well, if your expectations are consistently crushed, maybe you should.</p>
+<h2 id="forget-it-or-throw-it-away">Forget it or throw it away</h2>
+<p>Our computer&rsquo;s memory is composed of different layers (usually  6 of them). Some of them are fast but small and others are big but slow. The quickest layer is called cache. Computers use a simple algorithm to decide what gets stored in the cache. It’s called Least Recently Used (LRU), and it stores whatever you used last on top, in the upper layer of the cache.</p>
+<p>Our brains work similarly as well: if some information goes unused for a long time, we have a hard time remembering it. The same goes for our stuff. We also tend to lose items that we are not frequently using.</p>
+<p>So if you have stuff you are not using, throw them away! Replace your desk with the most recent items. Or at least place those items closer to you. It will still be a mess, but an organized mess. It will make looking for them faster.</p>
+<p>Consequently, if you’re preparing for an exam in the morning, read your notes right before you go to bed. The information will be there when you wake up.
+You can forget the rest of your thoughts without regrets.</p>
+<h2 id="dont-overthink">Don’t overthink</h2>
+<p>I am confident you are aware of the hype surrounding AI and Machine Learning. A common use of these algorithms is to make predictions after getting trained using related data.</p>
+<p>There is a term though which gives Machine Learning engineers a chill. It is called overfitting. It means that in cases where the Algorithm is being fed a disproportionate amount of data, it loses the ability to generalize and make good predictions on yet unknown cases. The same holds for our brains.</p>
+<p>How to combat overfitting? Penalize complexity. If you can’t explain it simply, you don’t understand it well enough.</p>
+<p>When you have high uncertainty and limited data, you should stop thinking early. Allowing more time can create more complexity and be counterproductive.</p>
+<p>Or - in simple terms - don’t overthink!</p>
+<h2 id="relax-dont-be-a-perfectionist">Relax (don’t be a perfectionist)</h2>
+<p>The real world is shockingly complex. We often desire to explain it fully. Adding more parameters to a problem may make it more realistic, but if we add a lot of complexity, the problem may become unsolvable.</p>
+<p>The traveling salesman problem is such an example: “Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?”
+If you expand this problem to a whole country or a continent, it gets immensely complex.</p>
+<p>In a situation like this, the solution is to relax your restrictions. Allow the salesman to visit different locations twice or more. You’ll end up with a good solution in a reasonable time, although not a perfect one.</p>
+<p>So, in many cases, you must relax your constraints, and not try to solve everything perfectly.</p>
+<h2 id="finally-on-actions-and-results">Finally: on actions and results</h2>
+<p>I have to warn you: taking the best actions does not guarantee good results. We can never control the outcome.
+However, there is a great quote from the book to ease our frustration:</p>
+<p>“To try and fail is at least to learn;
+To fail to try is to suffer the inestimable
+loss of what might have been,”</p>
+<p>I hope this article helped you reconsider your views of computer science, and even provided a few helpful tips.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-06-22</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/algorithms/">Algorithms</a>,&nbsp;<a href="/tags/computer-science/">Computer Science</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2021/06/how-to-live-your-digital-life-in-a-terminal-introduction/" class="prev" rel="prev" title="How to live your digital life in a terminal : Introduction"><i class="fas fa-angle-left fa-fw"></i>How to live your digital life in a terminal : Introduction</a>
+            <a href="/2021/06/how-to-be-social-in-the-terminal/" class="next" rel="next" title="How to be social in the terminal">How to be social in the terminal<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Kornilakis</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

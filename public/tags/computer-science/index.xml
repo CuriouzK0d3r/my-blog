@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Computer Science - Tag - The Curious Coder</title>
+        <link>http://localhost:1313/tags/computer-science/</link>
+        <description>Computer Science - Tag - The Curious Coder</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Jun 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/computer-science/" rel="self" type="application/rss+xml" /><item>
+    <title>Computer Science as a Medicine</title>
+    <link>http://localhost:1313/2021/06/cs-as-a-medicine/</link>
+    <pubDate>Tue, 22 Jun 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/06/cs-as-a-medicine/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/cs.jpg" referrerpolicy="no-referrer">
+            </div>Introduction It was November 2019 and I was on the plane flying to another country. I was going to move there. This was something far outside my comfort zone, and I was a bit terrified. I knew that I would have to deal with a stream of new challenges, and this made me a bit anxious.
+I started reading a computer science book I had bought for my trip. The title was ”Algorithms to Live By”.]]></description>
+</item></channel>
+</rss>

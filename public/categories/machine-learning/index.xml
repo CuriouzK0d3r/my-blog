@@ -1,19 +1,29 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Machine Learning - Category - The Curious Coder</title>
-        <link>http://example.org/categories/machine-learning/</link>
+        <link>http://localhost:1313/categories/machine-learning/</link>
         <description>Machine Learning - Category - The Curious Coder</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/machine-learning/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/machine-learning/" rel="self" type="application/rss+xml" /><item>
     <title>How to start with Deep Learning</title>
-    <link>http://example.org/2021/08/start-with-dl/</link>
+    <link>http://localhost:1313/2021/08/start-with-dl/</link>
     <pubDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/2021/08/start-with-dl/</guid>
+    <guid>http://localhost:1313/2021/08/start-with-dl/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/featured-image.png" referrerpolicy="no-referrer">
+                <img src="/images/Deep-Neural-Network-architecture.png" referrerpolicy="no-referrer">
             </div>Embracing the hype Nowadays, everyone is talking about Artificial Intelligence. Whether understands it or not. This discussion essentially comes down to two terms: Machine Learning and Deep Learning.
 Machine learning (ML) is the study of computer algorithms that improve automatically through experience and by the use of data.
 Deep Learning is a type of Machine Learning based on Artificial Neural Networks with multiple layers.
 Artificial neural networks (ANNs) are computing systems inspired by the biological neural networks that constitute animal brains.]]></description>
+</item><item>
+    <title>Why is Fake News Spread so Hard to Stop?</title>
+    <link>http://localhost:1313/2021/05/why-is-fake-news-spread-so-hard-to-stop/</link>
+    <pubDate>Wed, 12 May 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/05/why-is-fake-news-spread-so-hard-to-stop/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/vxaimuibyt.jpg" referrerpolicy="no-referrer">
+            </div>Some History Disinformation is not a recent issue. As Guardian columnist Natalie Nougayr`ede has observed: ”The use of propaganda is ancient, but never before has there been the technology to so effectively disseminate it” [1].
+Misinformation, disinformation, and propaganda have been features of human communication since at least the Roman times [2]. However, the invention of the Gutenberg printing press in 1493 dramatically amplified the dissemination of disinformation and misinformation, and it ultimately delivered the first large-scale news hoax - ’The Great Moon Hoax’ of 1835.]]></description>
 </item></channel>
 </rss>

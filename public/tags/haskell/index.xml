@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Haskell - Tag - The Curious Coder</title>
+        <link>http://localhost:1313/tags/haskell/</link>
+        <description>Haskell - Tag - The Curious Coder</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/haskell/" rel="self" type="application/rss+xml" /><item>
+    <title>Learn You a Functional Programming for Great Good!</title>
+    <link>http://localhost:1313/2021/07/learn-you-a-fp/</link>
+    <pubDate>Thu, 08 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/07/learn-you-a-fp/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/fp.webp" referrerpolicy="no-referrer">
+            </div>Level of knowledge required: This article requires some programming background to be fully understood.
+Introduction I am sure you have noticed the silly syntax in this article&rsquo;s title. It is inspired by a popular introductory book for the Haskell language, called “Learn You a Haskell for Great Good!” [1]. Which could probably be perceived as “Learn Haskell for great benefit”. Haskell is one of the so-called purely functional programming languages. Or more precisely, almost purely functional.]]></description>
+</item></channel>
+</rss>

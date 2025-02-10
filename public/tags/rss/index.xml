@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Rss - Tag - The Curious Coder</title>
+        <link>http://localhost:1313/tags/rss/</link>
+        <description>Rss - Tag - The Curious Coder</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Jun 2021 21:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/rss/" rel="self" type="application/rss+xml" /><item>
+    <title>How to live your digital life in a terminal : Introduction</title>
+    <link>http://localhost:1313/2021/06/how-to-live-your-digital-life-in-a-terminal-introduction/</link>
+    <pubDate>Sun, 20 Jun 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/2021/06/how-to-live-your-digital-life-in-a-terminal-introduction/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/zueyl-nt1x.jpg" referrerpolicy="no-referrer">
+            </div>The bloated web I recall a few years ago me sharing Mozilla’s dream for the web. The web was on its way to become the main platform for internet users. And that was supposed to be a good thing, due to its openness and the freedom that it was providing. But freedom and control are relative concepts.
+Web now has become bloated with unnecessary code, advertisements, pop-ups, comments and recommendation systems that are trying to mine our data and keep us hooked in their user interfaces by providing us with constants hits of dopamine.]]></description>
+</item></channel>
+</rss>

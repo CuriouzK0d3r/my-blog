@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>How to be social in the terminal - The Curious Coder</title><meta name="Description" content="Using social media tools from the terminal"><meta property="og:url" content="http://localhost:1313/2021/06/how-to-be-social-in-the-terminal/">
+  <meta property="og:site_name" content="The Curious Coder">
+  <meta property="og:title" content="How to be social in the terminal">
+  <meta property="og:description" content="Using social media tools from the terminal">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-06-30T21:00:00+00:00">
+    <meta property="article:modified_time" content="2021-06-30T21:00:00+00:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Productivity">
+    <meta property="article:tag" content="Social-Media">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="How to be social in the terminal">
+  <meta name="twitter:description" content="Using social media tools from the terminal">
+      <meta name="twitter:site" content="@ck0d3r">
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="http://localhost:1313/2021/06/how-to-be-social-in-the-terminal/" /><link rel="prev" href="http://localhost:1313/2021/06/cs-as-a-medicine/" /><link rel="next" href="http://localhost:1313/2021/07/learn-you-a-fp/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to be social in the terminal",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/2021\/06\/how-to-be-social-in-the-terminal\/"
+        },"genre": "posts","keywords": "linux, productivity, social-media","wordcount":  1027 ,
+        "url": "http:\/\/localhost:1313\/2021\/06\/how-to-be-social-in-the-terminal\/","datePublished": "2021-06-30T21:00:00+00:00","dateModified": "2021-06-30T21:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "Alexandros"},"author": {
+                "@type": "Person",
+                "name": "Alexandros"
+            },"description": "Using social media tools from the terminal"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="The Curious Coder">The Curious Developer</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="https://webcompiled.tech" rel="noopener noreffer" target="_blank"> WebCompiled </a><a class="menu-item" href="/resume"> Resume </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="The Curious Coder">The Curious Developer</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="https://webcompiled.tech" title="" rel="noopener noreffer" target="_blank">WebCompiled</a><a class="menu-item" href="/resume" title="">Resume</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">How to be social in the terminal</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Alexandros</a></span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw"></i>Linux</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-06-30">2021-06-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1027 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/social.jpg"
+        data-srcset="/images/social.jpg, /images/social.jpg 1.5x, /images/social.jpg 2x"
+        data-sizes="auto"
+        alt="/images/social.jpg"
+        title="Using social media tools from the terminal" /></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#online-social-networks">Online social networks</a></li>
+    <li><a href="#chatting-with-weechat">Chatting with WeeChat</a>
+      <ul>
+        <li><a href="#slack">Slack</a></li>
+        <li><a href="#discord">Discord</a></li>
+      </ul>
+    </li>
+    <li><a href="#chatting-with-other-tools">Chatting with other tools</a>
+      <ul>
+        <li><a href="#facebook-messenger">Facebook Messenger</a></li>
+        <li><a href="#telegram">Telegram</a></li>
+        <li><a href="#instagram-dms">Instagram DMs</a></li>
+      </ul>
+    </li>
+    <li><a href="#browsing-and-posting">Browsing and posting</a>
+      <ul>
+        <li><a href="#twitter">Twitter</a></li>
+        <li><a href="#reddit">Reddit</a></li>
+        <li><a href="#linkedin">LinkedIn</a></li>
+      </ul>
+    </li>
+    <li><a href="#instagram">Instagram</a></li>
+    <li><a href="#bonus-google-search">Bonus: Google search</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="online-social-networks">Online social networks</h2>
+<p>Whoever knows me personally is aware that I am not the biggest fan of social networks. Don&rsquo;t get me wrong, I was always involved with them. Understanding social networks was also part of my research interests for a quite long time. But my relationship with them was always a love and hate one.</p>
+<p>In this blog, I&rsquo;m going to talk a lot about this relationship.</p>
+<p>In this post, though I will diverge from this discussion.</p>
+<p>If you followed through with my last post, you may wonder what else is it possible to do from a command-line interface a.k.a. the terminal.</p>
+<p>Wouldn’t it be nice to maintain a normal online social life while embracing minimalistic digital habits? Let&rsquo;s assume that you are a user of Reddit, Twitter, Instagram, Facebook Messenger, LinkedIn, Telegram, Slack and Discord. Although this is not the most convenient way to access those services, we will explore tools that make chatting and browsing possible.</p>
+<p>Disclaimer: You shouldn’t normally trust your credentials to a third party service. I performed a manual check at the code of the suggested tools. They look legitimate. You should do your research though.</p>
+<h2 id="chatting-with-weechat">Chatting with WeeChat</h2>
+<p><a href="https://weechat.org/" target="_blank" rel="noopener noreffer">WeeChat</a> is an extensive chat client that includes an interesting list of plugins. Some plugins add features like proxy support, while others add support to social services, thus being worth mentioning. WeeChat can easily be combined with BitlBee, and bring support to additional services (Twitter/Discord/Steam). I used the Skype plugin in the past but now is outdated and not functional.</p>
+<p>As far as the aforementioned services are concerned, I suggest WeeChat for its Slack and Discord integrations.</p>
+<h3 id="slack">Slack</h3>
+<p><a href="https://github.com/wee-slack/wee-slack" target="_blank" rel="noopener noreffer">Wee-Slack</a> is a WeeChat plugin that is based on python WebSockets and delivers most of the basic functionality of the Slack client. To use this, you need to receive a Slack API token. One way is - after installing - to run on WeeChat:</p>
+<p><code>/slack register</code> This command prints a link you should open in your browser to authorize WeeChat with Slack.</p>
+<p>Once you’ve accomplished this, you should run:</p>
+<p><code>/slack register &lt;code&gt;</code></p>
+<p><code>/python reload slack</code></p>
+<p>Now you can navigate through private messages and channels using the arrow keys.</p>
+<h3 id="discord">Discord</h3>
+<p>To be honest, I am a fan of the excellent <a href="https://github.com/Bios-Marcel/cordless" target="_blank" rel="noopener noreffer">cordless</a> application. Unfortunately, the creator was banned from the service for violating the terms of service. So it is not recommended anymore.</p>
+<p>An alternative however to this is a <a href="https://github.com/terminal-discord/weechat-discord" target="_blank" rel="noopener noreffer">WeeChat plugin</a>.</p>
+<p>Once more,  you will need to obtain a login token. You can either use a python script to find the tokens or try and grab them manually.</p>
+<p>Then, set your token: <code>/discord token 123456789ABCDEF</code></p>
+<p>And connect: <code>/discord connect</code></p>
+<p>Then you can browse your channels and chat normally.</p>
+<h2 id="chatting-with-other-tools">Chatting with other tools</h2>
+<h3 id="facebook-messenger">Facebook Messenger</h3>
+<p>While WeeChat is a powerful enough tool, it serves our purpose up to a certain extend. To use Facebook messenger, will have 2 options:</p>
+<ul>
+<li>
+<p><a href="https://www.npmjs.com/package/fb-messenger-cli" target="_blank" rel="noopener noreffer">fb-messenger-cli</a></p>
+</li>
+<li>
+<p><a href="https://github.com/mjkaufer/Messer" target="_blank" rel="noopener noreffer">Messer</a></p>
+</li>
+</ul>
+<p>I had some issues logging in with Messer, so I ended up using the first option.</p>
+<p>I suggest installing the tool locally with npm.</p>
+<p>To run this:</p>
+<p><code>&gt; ./node_modules/fb-messenger-cli/cli.js # run the app</code></p>
+<p><code>&gt; 0 # choose a conversation</code></p>
+<p><code>&gt; this is a test message # text a message!</code></p>
+<h3 id="telegram">Telegram</h3>
+<p>In this case, we are lucky. We have a well-supported CLI application, <a href="https://github.com/vysheng/tg" target="_blank" rel="noopener noreffer">telegram-cli</a>.</p>
+<p>To try this, after installing, run:</p>
+<p><code>&gt; telegram-cli # run the app!</code></p>
+<p><code>&gt; help # see your options</code></p>
+<p><code>&gt; msg username this is my test message # message user with the username handle!</code></p>
+<h3 id="instagram-dms">Instagram DMs</h3>
+<p>Instagram is of course a tricky case because relies on images. However, we can still chat with <a href="https://github.com/mathdroid/igdm-cli" target="_blank" rel="noopener noreffer">igdm-cli</a>.  To try this:</p>
+<p><code>&gt; igdm # enter username and password</code></p>
+<p><code>&gt; # browse messages with arrows and enter</code></p>
+<p><code>&gt; # In chatroom mode, exit by entering '/end'. Manually refresh the room by entering '/refresh'.</code></p>
+<h2 id="browsing-and-posting">Browsing and posting</h2>
+<p>As you can imagine, posting and browsing is a bit more problematic than messaging. Fortunately, there are some decent solutions, especially for Reddit and Twitter.</p>
+<h3 id="twitter">Twitter</h3>
+<p><a href="https://github.com/orakaro/rainbowstream" target="_blank" rel="noopener noreffer">Rainbowstream</a> is my favourite of the clients I have mentioned here. It is feature-rich, and enables a decent use of Twitter without being as distracting as the official clients.</p>
+<p>After installing Rainbowstream, run:</p>
+<p><code>&gt; rainbowstream # supports tab autocompletion</code></p>
+<p><code>&gt; h # for help</code></p>
+<p><code>&gt; h discover # help for more specific commands</code></p>
+<p><code>&gt; notification discover # shows notification</code></p>
+<p><code>&gt; home discover # shows timeline</code></p>
+<p><code>&gt; conversation [tweet id] # displays the full thread for tweet with the speicific id</code></p>
+<p><code>&gt; t testing rainbowstream # will tweet &quot;testing rainbowstream&quot;</code></p>
+<h3 id="reddit">Reddit</h3>
+<p>[Rtv] is a Reddit client that helps you to search and read posts and comments, while also gives you the ability to post and comment. Rtv also works as expected. To try this:</p>
+<p><code>&gt; rtv</code></p>
+<p><code>&gt; /front # frontpage</code></p>
+<p><code>&gt; /u/me # your info</code></p>
+<p><code>&gt; /r/greece # visit the /r/greece subreddit</code></p>
+<h3 id="linkedin">LinkedIn</h3>
+<p>With <a href="https://pypi.org/project/linkedin-cli/" target="_blank" rel="noopener noreffer">linkedin-cli</a>, you can post on your feed with a few easy steps. You have to register an application and retrieve a client id and secret. Then:</p>
+<p><code>&gt; linkedin configure set application # provide your client id and secret of your linkedin application. Configuration will be saved to ~/.linkedin/config.json file</code></p>
+<p><code>&gt; linkedin login # provide your credentials</code></p>
+<p><code>&gt; linkedin post -v public &quot;Hello world!&quot; # post with public visibility</code></p>
+<h2 id="instagram">Instagram</h2>
+<p><a href="https://github.com/instagrambot/instagram-terminal-news-feed" target="_blank" rel="noopener noreffer">instagram-terminal-news-feed</a> is a promising Instagram client, that even enables displaying pictures on the terminal. Unfortunately, due to some error, I wasn&rsquo;t able to log in. If you manage to use this, ping me :).</p>
+<h2 id="bonus-google-search">Bonus: Google search</h2>
+<p>Now I will admit that I cheated twice. First, because Google search is not a social network, and second because I wouldn&rsquo;t suggest using Google search even from the command line.</p>
+<p>I know, we all use it. But DuckDuckGo is a more private alternative. Thus, I will recommend a tool for performing duckduckgo searches from the terminal.</p>
+<p><a href="https://github.com/jarun/ddgr" target="_blank" rel="noopener noreffer">Ddgr</a> is a cmd line utility to search DuckDuckGo (HTML version) from the terminal. Although there is a Google alternative (googler), It is unmaintained and does not work anymore.</p>
+<p>You can easily use ddgr and also specify the cmd line browser of your choice:</p>
+<p><code>BROWSER=w3m ddgr query</code></p>
+<p>This tool supports many options, and I think you will enjoy using it.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-06-30</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/linux/">Linux</a>,&nbsp;<a href="/tags/productivity/">Productivity</a>,&nbsp;<a href="/tags/social-media/">Social-Media</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2021/06/cs-as-a-medicine/" class="prev" rel="prev" title="Computer Science as a Medicine"><i class="fas fa-angle-left fa-fw"></i>Computer Science as a Medicine</a>
+            <a href="/2021/07/learn-you-a-fp/" class="next" rel="next" title="Learn You a Functional Programming for Great Good!">Learn You a Functional Programming for Great Good!<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Kornilakis</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

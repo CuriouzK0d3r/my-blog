@@ -1,14 +1,35 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - Category - The Curious Coder</title>
-        <link>http://example.org/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Categories - Category - The Curious Coder</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Programming</title>
+    <link>http://localhost:1313/categories/programming/</link>
+    <pubDate>Wed, 26 Jan 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/categories/programming/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Machine Learning</title>
-    <link>http://example.org/categories/machine-learning/</link>
+    <link>http://localhost:1313/categories/machine-learning/</link>
     <pubDate>Tue, 10 Aug 2021 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/categories/machine-learning/</guid>
+    <guid>http://localhost:1313/categories/machine-learning/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Linux</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <pubDate>Wed, 30 Jun 2021 21:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/categories/linux/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Life</title>
+    <link>http://localhost:1313/categories/life/</link>
+    <pubDate>Tue, 22 Jun 2021 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/categories/life/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

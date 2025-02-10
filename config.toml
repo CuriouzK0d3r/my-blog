@@ -2,7 +2,7 @@ baseURL = "https://kornilakis.com/"
 defaultContentLanguage = "en"
 languageCode = "en"
 theme = "LoveIt"
-title = "The Curious Developer"
+title = "The Curious Coder"
 [Permalinks]
 posts = ":year/:month/:filename"
 [author]
@@ -28,20 +28,20 @@ title = ""
 url = "/categories/"
 weight = 2
 [[menu.main]]
-identifier = "newsletter"
-name = "Newsletter"
+identifier = "webcompiled"
+name = "WebCompiled"
 post = ""
 pre = ""
 title = ""
-url = "https://newsletter.kornilakis.com"
+url = "https://webcompiled.tech"
 weight = 3
 [[menu.main]]
-identifier = "about"
-name = "About"
+identifier = "resume"
+name = "Resume"
 post = ""
 pre = ""
 title = ""
-url = "/about"
+url = "/resume"
 weight = 4
 [params]
 dateFormat = "2006-01-02"
@@ -89,7 +89,7 @@ defaultHiddenFromHomePage = false
 enable = true
 paginate = 6
 [params.home.profile]
-avatarURL = "/images/me.jpg"
+avatarURL = "https://pic.onlinewebfonts.com/thumbnails/icons_486505.svg"
 disclaimer = ""
 enable = true
 gravatarEmail = ""
@@ -119,7 +119,7 @@ dateFormat = "01-02"
 paginate = 20
 rss = 10
 [params.social]
-Email = "kornilak@protonmail.com"
+Email = "info [at] alexisk.tech"
 GitHub = "CuriouzK0d3r"
 Linkedin = "kornilak"
 RSS = true
