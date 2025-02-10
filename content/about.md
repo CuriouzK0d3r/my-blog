@@ -7,8 +7,6 @@ lightgallery: true
 math:
   enable: true
 ---
-Alexandros Kornilakis is a software engineer at ICS-FORTH in Crete, Greece. His professional and research interests include web application development, machine learning and studying the security/privacy aspects of online social networks.
+ I'm Alexandros Kornilakis, a software engineer from Greece with a passion for web development, cybersecurity, and AI. With over five years of work experience, I specialize in building web applications, browser extensions, mobile apps, and security tools.
 
-When he is not working he enjoys reading crime novels, watching movies and taking long walks.
-
-You can contact me at kornilak[at]protonmail[dot]com.
+I enjoy learning new technologies, optimizing software performance, and solving security challenges. Feel free to check out my GitHub, research papers, and projects to learn more about my work. 
