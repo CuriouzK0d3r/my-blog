@@ -8,7 +8,7 @@ posts = ":year/:month/:filename"
 [author]
 email = ""
 link = ""
-name = "Kornilakis"
+name = "Alexis K"
 [markup.highlight]
 noClasses = false
 [[menu.main]]
@@ -78,7 +78,7 @@ desktopMode = "fixed"
 mobileMode = "auto"
 [params.header.title]
 logo = ""
-name = "The Curious Developer"
+name = "The Curious Coder"
 post = ""
 pre = ""
 typeit = false
@@ -89,7 +89,7 @@ defaultHiddenFromHomePage = false
 enable = true
 paginate = 6
 [params.home.profile]
-avatarURL = "https://pic.onlinewebfonts.com/thumbnails/icons_486505.svg"
+avatarURL = "/images/me.jpg"
 disclaimer = ""
 enable = true
 gravatarEmail = ""
