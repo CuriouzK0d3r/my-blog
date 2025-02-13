@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Resume"
 draft: false
 
 lightgallery: true
