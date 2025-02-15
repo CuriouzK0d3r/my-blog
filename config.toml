@@ -44,6 +44,7 @@ title = ""
 url = "https://webcompiled.tech"
 weight = 4
 [params]
+custom_css = ["/css/blog.css"]
 dateFormat = "2006-01-02"
 defaultTheme = "auto"
 description = ""
