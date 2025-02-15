@@ -1,4 +1,4 @@
-baseURL = "https://kornilakis.com/"
+baseURL = "https://alexisk.tech"
 defaultContentLanguage = "en"
 languageCode = "en"
 theme = "LoveIt"
@@ -78,10 +78,10 @@ desktopMode = "fixed"
 mobileMode = "auto"
 [params.header.title]
 logo = ""
-name = "The Curious Coder"
+name = "@TheCuriousCoder"
 post = ""
 pre = ""
-typeit = false
+typeit = true
 [params.home]
 rss = 10
 [params.home.posts]
