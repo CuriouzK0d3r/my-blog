@@ -49,7 +49,7 @@ defaultTheme = "auto"
 description = ""
 fingerprint = ""
 gitRepo = ""
-images = ["/logo.png"]
+images = ["/images/icons_486505.svg"]
 keywords = ["Theme", "Hugo"]
 version = "0.2.X"
 [params.analytics]
