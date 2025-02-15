@@ -24,6 +24,23 @@ I am passionate about learning new technologies, improving my skills, and delive
 
 ---
 
+## 💻 Technical Skills
+
+### **Programming Languages**  
+- **Experienced:** JavaScript, TypeScript, PHP, Java, Python, C, Bash  
+- **Intermediate:** Rust, Go, C++, Ruby, Scala, Julia  
+
+### **Web Development**  
+- **Frontend:** React.js, Svelte, Next.js, WebAssembly, TailwindCSS, Bootstrap  
+- **Backend:** Node.js, Flask, PHP, GraphQL  
+- **CMS & Frameworks:** WordPress, Hugo, Gatsby, Smarty  
+
+### **Databases & DevOps**  
+- **Databases:** PostgreSQL, MongoDB, Oracle RDBMS  
+- **Tools:** Docker, Kubernetes, Vagrant, Git, CI/CD  
+
+---
+
 ## 💼 Experience
 
 ### **Software Engineer**  
@@ -85,23 +102,6 @@ I am passionate about learning new technologies, improving my skills, and delive
 
 ---
 
-## 💻 Technical Skills
-
-### **Programming Languages**  
-- **Experienced:** JavaScript, TypeScript, PHP, Java, Python, C, Bash  
-- **Intermediate:** Rust, Go, C++, Ruby, Scala, Julia  
-
-### **Web Development**  
-- **Frontend:** React.js, Svelte, Next.js, WebAssembly, TailwindCSS, Bootstrap  
-- **Backend:** Node.js, Flask, PHP, GraphQL  
-- **CMS & Frameworks:** WordPress, Hugo, Gatsby, Smarty  
-
-### **Databases & DevOps**  
-- **Databases:** PostgreSQL, MongoDB, Oracle RDBMS  
-- **Tools:** Docker, Kubernetes, Vagrant, Git, CI/CD  
-
----
-
 ## 🌍 Languages
 
 - **English** – C1 (University of Michigan)  
@@ -112,11 +112,12 @@ I am passionate about learning new technologies, improving my skills, and delive
 
 ## 🔗 Links & Publications
 
-- [GitHub: Artemis Web](https://github.com/FORTH-ICS-INSPIRE/artemis-web/)
 - [How Russia's Invasion of Ukraine Impacted the Internet Peering of the Conflicted Countries](https://ieeexplore.ieee.org/abstract/document/10559142)
 - [Towards the development of a network provisioning platform for data exchange in the health data space](https://ieeexplore.ieee.org/abstract/document/10849743)
 - [ACM Paper: The Rise and Fall of Fake News Sites](https://dl.acm.org/doi/10.1145/3447535.3462510)  
 - [Incognitus: Privacy-Preserving User Interests](https://www.springerprofessional.de/en/incognitus-privacy-preserving-user-interests-in-online-social-ne/16428486)  
 - [Check-It: A plugin for Detecting and Reducing the Spread of Fake News and Misinformation on the Web](https://ieeexplore.ieee.org/document/8909652)  
+- [My Google Scholar profile](https://scholar.google.com/citations?user=XA6qIAkAAAAJ)
+- [GitHub: Artemis Web](https://github.com/FORTH-ICS-INSPIRE/artemis-web/)
 - [QR Catalogue](https://qr.verandaallday.gr)  
 

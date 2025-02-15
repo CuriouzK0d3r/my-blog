@@ -28,25 +28,25 @@ title = ""
 url = "/categories/"
 weight = 2
 [[menu.main]]
-identifier = "webcompiled"
-name = "WebCompiled"
-post = ""
-pre = ""
-title = ""
-url = "https://webcompiled.tech"
-weight = 3
-[[menu.main]]
 identifier = "resume"
 name = "Resume"
 post = ""
 pre = ""
 title = ""
 url = "/resume"
+weight = 3
+[[menu.main]]
+identifier = "webcompiled"
+name = "WebCompiled"
+post = ""
+pre = ""
+title = ""
+url = "https://webcompiled.tech"
 weight = 4
 [params]
 dateFormat = "2006-01-02"
 defaultTheme = "auto"
-description = "This is My New Hugo Site"
+description = ""
 fingerprint = ""
 gitRepo = ""
 images = ["/logo.png"]
