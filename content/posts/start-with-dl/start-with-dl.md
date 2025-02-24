@@ -1,6 +1,6 @@
 ---
 author: "Alexandros"
-title: "How to start with Deep Learning"
+title: "How to get started with Deep Learning"
 date: 2021-08-10T00:00:00.000Z
 tags: ["Deep Learning", "Python", "JavaScript"]
 categories: ["Machine Learning"]
