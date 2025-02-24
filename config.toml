@@ -79,7 +79,7 @@ desktopMode = "fixed"
 mobileMode = "auto"
 [params.header.title]
 logo = ""
-name = "@TheCuriousCoder"
+name = "@ck0d3r"
 post = ""
 pre = ""
 typeit = true
