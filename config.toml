@@ -2,7 +2,7 @@ baseURL = "https://alexisk.tech"
 defaultContentLanguage = "en"
 languageCode = "en"
 theme = "LoveIt"
-title = "The Curious Coder"
+title = "Alexandros Kornilakis - Software Engineer"
 [Permalinks]
 posts = ":year/:month/:filename"
 [author]
