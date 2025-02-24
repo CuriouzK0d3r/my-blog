@@ -102,14 +102,6 @@ I am passionate about learning new technologies, improving my skills, and delive
 
 ---
 
-## 🌍 Languages
-
-- **English** – C1 (University of Michigan)  
-- **German** – B1 (Goethe Zertifikat)  
-- **Greek** – Native  
-
----
-
 ## 🔗 Links & Publications
 
 - [How Russia's Invasion of Ukraine Impacted the Internet Peering of the Conflicted Countries](https://ieeexplore.ieee.org/abstract/document/10559142)
